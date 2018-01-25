@@ -1,0 +1,24 @@
+{
+  "name": "notarymetaweb",
+  "version": "1.0.0",
+  "description": "An Ethereum document certification app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stbeyer/notary.git"
+  },
+  "author": "Stefan Beyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stbeyer/notary/issues"
+  },
+  "homepage": "https://github.com/stbeyer/notary#readme",
+  "dependencies": {
+    "eth-lightwallet": "^3.0.1",
+    "express": "^4.16.2",
+    "web3": "^1.0.0-beta.27"
+  }
+}
